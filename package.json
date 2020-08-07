@@ -1,5 +1,5 @@
 {
-  "name": "serverless-shop",
+  "name": "serverless",
   "version": "0.1.1",
   "private": true,
   "dependencies": {
@@ -27,5 +27,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://patrick-michelberger.github.io/serverless-shop"
+  "homepage": "https://denyshnatiuk.github.io/serverless/",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
