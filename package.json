@@ -1,14 +1,23 @@
 {
   "name": "serverless-shop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "gh-pages": "^1.0.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "diff": "^4.0.2",
+    "dot-prop": "5.1.1",
+    "eslint": "^7.6.0",
+    "gh-pages": "^3.1.0",
+    "handlebars": "^4.7.6",
+    "lodash.template": "^4.5.0",
+    "mem": "^6.1.0",
+    "minimist": "1.2.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "websocket-extensions": "0.1.4",
+    "yargs-parser": "^18.1.3"
   },
   "devDependencies": {
-    "react-scripts": "1.0.11"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "predeploy": "npm run build",
